@@ -1,0 +1,30 @@
+li.voice-state:not([data-reactid*='290586962144788480']) { display:none; }
+.avatar {
+  content:url('https://raw.githubusercontent.com/bunny-sammy/NeuronioLive/main/avatars/default/avatar_1_closed.png');
+  height:auto !important;
+  width:auto !important;
+  border-radius:0% !important;
+  filter: brightness(80%); 
+/*Change brightness to 100%, if you don’t want the image to dim*/
+}
+
+.speaking {
+  border-color:rgba(0,0,0,0) !important;
+  position:relative;
+  animation-name: speak-now;
+  animation-duration: 1s;
+  animation-fill-mode:forwards;
+  filter: brightness(100%);
+content:url('https://raw.githubusercontent.com/bunny-sammy/NeuronioLive/main/avatars/default/avatar_1_open.png');
+}
+
+@keyframes speak-now {
+  0% { bottom:0px;  }
+  15% { bottom:10px;  }
+  30% { bottom:0px;  }
+}
+
+li.voice-state{ position: static; }
+div.user{ position: absolute; left:40%; bottom:5%; }
+
+body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
