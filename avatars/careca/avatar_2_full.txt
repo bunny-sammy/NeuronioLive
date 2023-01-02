@@ -1,7 +1,7 @@
 /***Two Images w/ Animation***/
 /*User*/ img:not([src*='405680071744028673']), img:not([src*='UserID']) + div  { display:none; }
-/*Avatar*/ img[class*="avatar"] { content:url("https://raw.githubusercontent.com/bunny-sammy/NeuronioLive/main/avatars/default/avatar_2_closed_full.png"); }
-/*Speaking*/ img[class*="avatarSpeaking"] { content:url("https://raw.githubusercontent.com/bunny-sammy/NeuronioLive/main/avatars/default/avatar_2_open_full.png"); }
+/*Avatar*/ img[class*="avatar"] { content:url("https://raw.githubusercontent.com/bunny-sammy/NeuronioLive/main/avatars/careca/avatar_2_closed_full.png"); }
+/*Speaking*/ img[class*="avatarSpeaking"] { content:url("https://raw.githubusercontent.com/bunny-sammy/NeuronioLive/main/avatars/careca/avatar_2_open_full.png"); }
 /*Flex Set*/ html, body, img, div, span, ul, li { display:flex; }
 /*Center Image*/ html { height:100%; justify-content:center; }
 /*Hide Scrollbars*/ body { overflow:hidden; }
